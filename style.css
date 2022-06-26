@@ -1,0 +1,75 @@
+#bg {
+	background-image: url(img111.jpg);
+	background-size: cover;
+	position: fixed;
+	z-index: -10;
+	height: 100vh;
+	width: 100%;
+}
+
+nav {
+	background-color: rgb(12 53 20);
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 50px;
+	
+	
+}
+
+#content {
+	background-color: rgba(211, 211, 212, 0.743);
+	color: rgb(43, 35, 35);
+	
+}
+footer {
+	
+	background-color: rgba(211, 211, 212, 0.743);
+	color: rgb(43, 35, 35);
+	
+}
+
+#side-bar,
+.content {
+	height: fit-content;
+}
+
+#side-bar a{
+	color: rgb(53, 36, 36);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-basic {
+	height: 20px;
+	color:#4b4c4d;
+  }
+
+  
+  .footer-basic .social {
+	text-align:center;
+	padding-top: 10px;
+  }
+  
+  .footer-basic .social > a {
+	font-size:24px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	display:inline-block;
+	text-align:center;
+	border-radius:50%;
+	border:1px solid #ccc;
+	margin:0 8px;
+	color:inherit;
+	opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+	opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+	margin-top:15px;
+	text-align:center;
+	font-size:13px;
+	color:rgb(49, 47, 47);
+	margin-bottom:0;
+  }
